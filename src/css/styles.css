@@ -1,0 +1,53 @@
+body {
+  background-color: black;
+}
+@font-face {
+  font-family: "Title";
+  src: url('/futura/Futura\ Light\ font.ttf');
+}
+#header {
+  font-family: "Title";
+  float: left;
+  border: 0px;
+  text-align:justify;
+  position: absolute;
+  margin-top: 50px;
+  margin-left: 25px;
+  color: white;
+}
+*:before,
+*:after {
+  box-sizing: border-box;
+  position: relative;
+  letter-spacing: 0.04em;
+}
+.title {
+  height: 100vh;
+  width: 100%;
+  position: relative;
+  padding: 0px;
+  text-align: center;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+.cp {
+  background-color: thistle;
+}
+.an {
+  background-color: rgb(0, 0, 0);
+}
+.revealUp {
+  opacity: 0;
+  visibility: hidden;
+}
+.spacer {
+  height: 50vh;
+  background-color: rgb(145, 63, 63);
+}
+.revealUp:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
