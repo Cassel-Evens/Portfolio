@@ -7,9 +7,9 @@ import { ScrollTrigger } from "gsap/ScrollTrigger";
 
 
 $(document).ready(function() {
-  $('.revealUp').on('click',function() {
+  $('.photo').on('click',function() {
     $("#titlePage").hide();
-    $("#header").hide();
+    // $("#photography").show();
   });
 });
 
@@ -31,7 +31,6 @@ gsap.utils.toArray(".revealUp").forEach(function (elem) {
           overwrite: "auto"
         }
       );
-      console.log(elem);
     },
     onLeave: function () {
       gsap.fromTo(elem, { autoAlpha: 1 }, { autoAlpha: 0, overwrite: "auto" });

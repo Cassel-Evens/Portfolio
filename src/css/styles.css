@@ -5,15 +5,23 @@ body {
   font-family: "Title";
   src: url('/futura/Futura\ Light\ font.ttf');
 }
+@font-face {
+  font-family: "coverPage";
+  src: url('/futura/Futura\ Heavy\ font.ttf');
+}
 #header {
   font-family: "Title";
   float: left;
+  position: relative;;
   border: 0px;
   text-align:justify;
   position: absolute;
   margin-top: 50px;
   margin-left: 25px;
   color: white;
+}
+#titlePage {
+  display: none;
 }
 *:before,
 *:after {
@@ -22,6 +30,7 @@ body {
   letter-spacing: 0.04em;
 }
 .title {
+  font-family: "coverPage";
   height: 100vh;
   width: 100%;
   position: relative;
@@ -50,4 +59,16 @@ body {
 .revealUp:hover {
   cursor: pointer;
   text-decoration: underline;
+}
+.photoHeader {
+  border: 0px;
+  width: fit-content;
+  height: fit-content;
+  text-align: center;
+  display: block;
+  font-family: 'coverPage';
+  color: white;
+  justify-content: center;
+  margin-top: 50px;
+  margin: autopm;
 }
