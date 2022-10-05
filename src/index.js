@@ -1,4 +1,4 @@
-import $ from 'jquery';
+// import $ from 'jquery';
 import 'bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './css/styles.css';
@@ -6,12 +6,12 @@ import { gsap } from 'gsap';
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 
 
-$(document).ready(function() {
-  $('.photo').on('click',function() {
-    $("#titlePage").hide();
-    // $("#photography").show();
-  });
-});
+// $(document).ready(function() {
+//   $('.photo').on('click',function() {
+//     $("#titlePage").hide();
+//     // $("#photography").show();
+//   });
+// });
 
 gsap.registerPlugin(ScrollTrigger);
 gsap.utils.toArray(".revealUp").forEach(function (elem) {

@@ -20,9 +20,9 @@ body {
   margin-left: 25px;
   color: white;
 }
-#titlePage {
+/* #titlePage {
   display: none;
-}
+} */
 *:before,
 *:after {
   box-sizing: border-box;
@@ -60,15 +60,15 @@ body {
   cursor: pointer;
   text-decoration: underline;
 }
-.photoHeader {
-  border: 0px;
-  width: fit-content;
-  height: fit-content;
-  text-align: center;
-  display: block;
-  font-family: 'coverPage';
-  color: white;
-  justify-content: center;
-  margin-top: 50px;
-  margin: autopm;
+#photography {
+  width: auto;
+  align-content: center;
+  margin: auto;
+  margin-top: 30px;
+}
+.photoHeader img {
+  display: flex;
+  height: 200px;
+  width: 200px;
+  object-fit: contain;
 }
